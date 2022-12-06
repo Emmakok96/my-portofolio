@@ -6,9 +6,19 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 110%;
+  font-family: 'myFirstFont', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: #190e33;
+  color: #6f27e4;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/Week2day4/my-portofolio/assets/Font/PixelEmulator-xq08.ttf);
+}
+div{
+  font-family: myFirstFont;
 }
 
 section {
@@ -41,6 +51,8 @@ header {
 
 header h1 {
   align-self: flex-start;
+  font-size: 13mm;
+  font-family: 'myFirstFont';
 }
 
 
@@ -57,12 +69,13 @@ header nav > * {
 
 
 .hero-banner {
-  height: 20%;
+  height: 30%;
 }
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/hero-bg.jpg");
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/a3ftzqi7ide71.png");
+  height: 200px;
 
 
   /* Position and center the image to scale nicely on all screens */
@@ -77,7 +90,7 @@ header nav > * {
   text-align: center;
   top: 50%;
   left: 50%;
-  color: white;
+  color: #6f27e4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,6 +113,7 @@ header nav > * {
   border-right: thick solid darkgray;
   margin: 20px;
   padding-right: 20px;
+  color: #F5D8B4;
 }
 
 .section-content {
@@ -138,62 +152,62 @@ header nav > * {
 
 #work-1 {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-1.jpg");
-  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/23wtnzgbh44a1.jpg");
+  height: 100px;
 }
 
 #work-1:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/23wtnzgbh44a1.jpg");
   height: 200px;
   
 }
 
 #work-2 {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/y7zgg41p064a1.jpg");
   height: 100px;
 }
 
 #work-2:hover {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-2.jpg");
-  height: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/y7zgg41p064a1.jpg");
+  height: 200px;
 }
 
 #work-3 {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/5lgx05uqox3a1.jpg");
   height: 100px;
 }
 
 #work-3:hover {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-3.jpg");
-  height: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/5lgx05uqox3a1.jpg");
+  height: 200px;
 }
 
 #work-4 {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/sfem44lgqjg91.jpg");
   height: 100px;
 }
 
 #work-4:hover {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/portfolio-4.jpg");
-  height: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/sfem44lgqjg91.jpg");
+  height: 200px;
 }
 
 #work-5 {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/run-buddy.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/space1.jpg");
   height: 100px;
 }
 
 #work-5:hover {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/run-buddy.jpg");
-  height: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../../assets/images/space1.jpg");
+  height: 200px;
 }
 
 .link-container {
@@ -234,4 +248,3 @@ header nav > * {
     border: 0;
   }
 }
-
