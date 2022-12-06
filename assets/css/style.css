@@ -14,11 +14,11 @@ body {
 }
 
 @font-face {
-  font-family: myFirstFont;
-  src: url(/Week2day4/my-portofolio/assets/Font/PixelEmulator-xq08.ttf);
+  font-family: 'myFirstFont';
+  src: url(../Font/PixelEmulator-xq08.ttf);
 }
 div{
-  font-family: myFirstFont;
+  font-family: 'myFirstFont';
 }
 
 section {
