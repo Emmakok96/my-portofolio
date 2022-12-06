@@ -65,6 +65,10 @@ header nav > * {
   padding: 10px;
   -webkit-box-shadow: none;
     box-shadow: none;
+    color: #F5D8B4;
+    background-color: #0f091eab;
+    box-decoration-break: slice;
+    box-shadow: #845925;
 }
 
 
